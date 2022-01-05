@@ -1,4 +1,4 @@
-# phase-4-project
+# Movie Recommendations
 
 
 **Authors**: Deja Prade, Emiko Naomasa
@@ -9,13 +9,15 @@
 
 ## Data
 
-## EDA 
-
 ## Modeling
 
-## Results
+## Recommendations for Existing Customer
+
+## Recommendations for New Customer
+
 
 ## Conclusion
+
 
 ## For More Information 
 Please review our full analysis in our Jupyter Notebook or our presentation.
