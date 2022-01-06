@@ -55,7 +55,7 @@ Next Step
 
 ## For More Information 
 Please review our full analysis in our Jupyter Notebook or our presentation.
-For any additional questions, please contact: [Deja Prade](-add linkedin), [Emiko Naomasa](https://www.linkedin.com/in/emiko-n-58782158/) 
+For any additional questions, please contact: [Deja Prade](https://www.linkedin.com/in/deja-prade/), [Emiko Naomasa](https://www.linkedin.com/in/emiko-n-58782158/) 
 
 
 
