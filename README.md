@@ -12,7 +12,10 @@ Popcorn (our stakeholder) is a startup company that recently entered the movie s
 
 
 ## Data
-We use the [MovieLens data set](https://grouplens.org/datasets/movielens/). This data set (ml-latest-small) includes 5-star rating and free-text tagging activity. It contains 102,377ratings and 3,476 tag applications across 9,742 movies. A total of 610 users created these ratings between March 29, 1996, and September 24, 2018. 
+We use the [MovieLens data set](https://grouplens.org/datasets/movielens/). This data set (ml-latest-small) contains 102,377 ratings (5-star rating) and 3,476 tag applications created between March 29, 1996, and September 24, 2018. A total of 610 users and 9,742 movies are included. 
+
+The data set also includes movie genres (Action, Adventure, Animation, Children’s, Comedy, Crime, Documentary, Drama, Fantasy, Film-Noir, Horror, Musical, Mystery, Romance, Sci-Fi, Thriller, War, Western, and (no genres listed)). 
+
 All users had rated at least 20 movies. No demographic information is provided.
 
 
