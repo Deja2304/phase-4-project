@@ -50,7 +50,7 @@ Next Step
 - For the collaborative filtering model, use timestamp data to weigh recent ratings, thereby reflecting the recent user’s trends.  
 - Used a larger dataset from the movie lens and checked scalability. 
 - Conduct A/B testing to assess whether a person really watches a recommended movie. 
-
+- Filter for movies with same title
 
 
 ## For More Information 
