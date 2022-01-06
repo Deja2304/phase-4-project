@@ -37,6 +37,8 @@ We assessed our movie recommendation system by examining the derived top 5 movie
 ### Recommendations for Existing Customer
 
 ### Recommendations for New Customer
+Based of ratings given for The Omen, Higher Learning, Waiting To Exhale, Exorcist, Mission Impossible, Final Destination, and Predator these were the recommendation given. 
+
 <img width="756" alt="Screen Shot 2022-01-05 at 2 04 08 PM" src="https://user-images.githubusercontent.com/92389914/148460693-f4c386d4-0fdb-44ad-8cbc-d163b6a5b5ff.png">
 
 
