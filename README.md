@@ -1,9 +1,28 @@
+
+# phase-4-project
+
 # Movie Recommendations
+
 
 
 **Authors**: Deja Prade, Emiko Naomasa
 
 ## Overview
+
+
+## Business Understanding 
+
+## Data
+
+## EDA 
+
+## Modeling
+
+## Results
+
+## Conclusion
+
+
 In this project, we build a movie recommendation system using the MovieLens ratings data set. We develop a content-based recommendation model for recommendations to new customers and a collaborative filtering model for recommendations to existing customers. Using our model, we provide the top five movie recommendations for new and existing customers. 
 
 
@@ -33,6 +52,7 @@ For model creation and evaluation, please read our jupyter notebook. (For [conte
 
 
 ## Conclusion
+
 
 
 ## For More Information 
