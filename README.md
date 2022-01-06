@@ -1,27 +1,8 @@
-
-# phase-4-project
-
 # Movie Recommendations
-
-
 
 **Authors**: Deja Prade, Emiko Naomasa
 
 ## Overview
-
-
-## Business Understanding 
-
-## Data
-
-## EDA 
-
-## Modeling
-
-## Results
-
-## Conclusion
-
 
 In this project, we build a movie recommendation system using the MovieLens ratings data set. We develop a content-based recommendation model for recommendations to new customers and a collaborative filtering model for recommendations to existing customers. Using our model, we provide the top five movie recommendations for new and existing customers. 
 
@@ -40,18 +21,35 @@ All users had rated at least 20 movies. No demographic information is provided.
 
 ## Model
 We develop **a content-based recommendation model** based on movie genres and **a collaborative filtering model** based on user ratings. Content-based and collaborative filtering are two of the most common types of recommendation systems. Content-based recommendation systems focus on the items’ attributes, such as genres, and provide recommendations based on the similarity between them. In contrast, the collaborative filtering recommender is entirely based on a viewer’s history and not the context. It analyses how similar the taste of one user is to another and makes recommendations on that basis. 
+Because collaborative filtering has a cold start problem, for the case of new users or new items, we build a content-based recommender. For the existing users, we build a follaborative filtering model. 
 
-Because it relies on a person’s rating/viewing history, collaborative filtering has a cold start problem. When a new user joins a streaming platform, the model cannot make any personal recommendations. When a new movie arrives, until a substantial number of users rate it, the model cannot make a recommendation. Thus, for the case of new users or new items, we build a content-based recommender. It relies on features, not on a person’s viewing history.
-
-For model creation and evaluation, please read our jupyter notebook. (For [content-based recommendation model] and for [collaborative filterling model] <-add link)
-
-
-## Recommendations for Existing Customer
-
-## Recommendations for New Customer
+![image](https://user-images.githubusercontent.com/38669459/148383995-1d35687f-f2b1-49e1-abb9-7a113d2e534a.png)
 
 
-## Conclusion
+Because collaborative filtering has a cold start problem, for the case of new users or new items, we build a content-based recommender. For the existing users, we build a follaborative filtering model. 
+For model creation and evaluation, please read our jupyter notebook. (For [content-based recommendation model] and for [collaborative filterling model](https://github.com/Deja2304/phase-4-project/blob/main/2_Collaborative_Filtering_Recommendation.ipynb).)
+
+
+## Model Evaluation
+We assessed our movie recommendation system by examining the derived top 5 movie recommendations for real users in our samples and a new user (an author). In general, our recommendations for existing customers seemed not far from their preferences.
+
+
+### Recommendations for Existing Customer
+
+### Recommendations for New Customer
+
+
+## Limitation of Our Model and Next Step
+A limitation in our recommendation system is that if a person had a unique taste, the collaborative filtering might not provide a good recommendation. Because this model is based on the similarity with other users, a person who had very different preference from others may not receive any reasonable recommendations. 
+Additionally, in our dataset, over 75% of movies received fewer than 10 reviews. Our model put less weight on these less-rated movies. As a consequence, a small portion of popular movies are often recommended, and an unpopular movie would remain invisible for a long time. 
+
+
+Next Step 
+- Develop a hybrid model, combining content-based and collaborative filtering models. 
+- For the content-based model, explore other movie features, such as tags, directors. 
+- For the collaborative filtering model, use timestamp data to weigh recent ratings, thereby reflecting the recent user’s trends.  
+- Used a larger dataset from the movie lens and checked scalability. 
+- Conduct A/B testing to assess whether a person really watches a recommended movie. 
 
 
 
