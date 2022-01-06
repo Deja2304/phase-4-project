@@ -21,7 +21,7 @@ All users had rated at least 20 movies. No demographic information is provided.
 
 ## Model
 We develop **a content-based recommendation model** based on movie genres and **a collaborative filtering model** based on user ratings. Content-based and collaborative filtering are two of the most common types of recommendation systems. Content-based recommendation systems focus on the items’ attributes, such as genres, and provide recommendations based on the similarity between them. In contrast, the collaborative filtering recommender is entirely based on a viewer’s history and not the context. It analyses how similar the taste of one user is to another and makes recommendations on that basis. 
-Because collaborative filtering has a cold start problem, for the case of new users or new items, we build a content-based recommender. For the existing users, we build a follaborative filtering model. 
+Because collaborative filtering has a cold start problem, for the case of new users or new items, we build a content-based recommender. For the existing users, we build a collaborative filtering model. 
 
 ![image](https://user-images.githubusercontent.com/38669459/148383995-1d35687f-f2b1-49e1-abb9-7a113d2e534a.png)
 
@@ -31,12 +31,14 @@ For model creation and evaluation, please read our jupyter notebook. (For [conte
 
 
 ## Model Evaluation
-We assessed our movie recommendation system by examining the derived top 5 movie recommendations for real users in our samples and a new user (an author). In general, our recommendations for existing customers seemed not far from their preferences.
+We assessed our movie recommendation system by examining the derived top 5 movie recommendations for real users in our samples and a new user (an author). In general, our recommendations for existing customers seemed not far from their preferences. For content based filtering our recommendations were aligned as well, some happened to be movies Deja had already seen.
 
 
 ### Recommendations for Existing Customer
 
 ### Recommendations for New Customer
+<img width="756" alt="Screen Shot 2022-01-05 at 2 04 08 PM" src="https://user-images.githubusercontent.com/92389914/148460693-f4c386d4-0fdb-44ad-8cbc-d163b6a5b5ff.png">
+
 
 
 ## Conclusion
