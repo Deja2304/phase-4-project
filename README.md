@@ -26,7 +26,7 @@ Because collaborative filtering has a cold start problem, for the case of new us
 ![image](https://user-images.githubusercontent.com/38669459/148383995-1d35687f-f2b1-49e1-abb9-7a113d2e534a.png)
 
 
-Because collaborative filtering has a cold start problem, for the case of new users or new items, we build a content-based recommender. For the existing users, we build a follaborative filtering model. 
+
 For model creation and evaluation, please read our jupyter notebook. (For [content-based recommendation model] and for [collaborative filterling model](https://github.com/Deja2304/phase-4-project/blob/main/2_Collaborative_Filtering_Recommendation.ipynb).)
 
 
@@ -39,7 +39,7 @@ We assessed our movie recommendation system by examining the derived top 5 movie
 ### Recommendations for New Customer
 
 
-## Limitation of Our Model and Next Step
+## Conclusion
 A limitation in our recommendation system is that if a person had a unique taste, the collaborative filtering might not provide a good recommendation. Because this model is based on the similarity with other users, a person who had very different preference from others may not receive any reasonable recommendations. 
 Additionally, in our dataset, over 75% of movies received fewer than 10 reviews. Our model put less weight on these less-rated movies. As a consequence, a small portion of popular movies are often recommended, and an unpopular movie would remain invisible for a long time. 
 
