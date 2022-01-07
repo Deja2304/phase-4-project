@@ -35,6 +35,8 @@ We assessed our movie recommendation system by examining the derived top 5 movie
 
 
 ### Recommendations for Existing Customer
+We randomly picked a person UserID=50 from our data sample and made a top-10 movie recommendation. 
+
 
 ### Recommendations for New Customer
 Based of ratings given for The Omen, Higher Learning, Waiting To Exhale, Exorcist, Mission Impossible, Final Destination, and Predator these were the recommendation given. 
