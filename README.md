@@ -27,7 +27,7 @@ Because collaborative filtering has a cold start problem, for the case of new us
 
 
 
-For model creation and evaluation, please read our jupyter notebook. (For [content-based recommendation model] and for [collaborative filterling model](https://github.com/Deja2304/phase-4-project/blob/main/2_Collaborative_Filtering_Recommendation.ipynb).)
+For model creation and evaluation, please read our jupyter notebook. (For [content-based recommendation model](https://github.com/Deja2304/phase-4-project/blob/main/content%20based.ipynb) and for [collaborative filterling model](https://github.com/Deja2304/phase-4-project/blob/main/2_Collaborative_Filtering_Recommendation.ipynb).)
 
 
 ## Model Evaluation
@@ -35,6 +35,11 @@ We assessed our movie recommendation system by examining the derived top 5 movie
 
 
 ### Recommendations for Existing Customer
+We randomly picked a person UserID=50 from our data sample and made a top-10 movie recommendation. 
+Our model recommends dramas and comedies. From the UserID=50’s profile, it seems that this person enjoys watching science fiction and psychological dramas as well as comedy. We also notice that this person likes to watch international movies. Given this profile, we would say our recommendation may not be far from his profile, but it is not 100 % tailored to his interest.
+
+
+![Movie recomendation for person X](./Data/dataframe.png)
 
 ### Recommendations for New Customer
 Based of ratings given for The Omen, Higher Learning, Waiting To Exhale, Exorcist, Mission Impossible, Final Destination, and Predator these were the recommendation given. 
@@ -66,10 +71,12 @@ For any additional questions, please contact: [Deja Prade](https://www.linkedin.
 ## Repository Structure
 
 ```
-├── README.md                           <- The top-level README for reviewers of this project
-├── Notebook.ipynb                         <- Concise summary of the project with all data science steps
-├── Project 4.pdf                       <- PDF version of project presentation
-├── Data                                <- Both sourced externally and generated from code, includes exploratory notebooks
-└── Images                              <- Both sourced externally and generated from code
+├── README.md                           
+├── 1_Data_Cleaning_EDA.ipynb                       <- Summary of data clearning and EDA
+├── 2_Collaborative_Filtering_Recommendation.ipynb  <- Summary of developing and evaluating Collaborative Filtering Recommendation
+├── Content Based.ipynb                             <- Summary of developing and evaluating Content Based Recommendation
+├── Project 4.pdf                                   <- PDF version of project presentation
+└── Data                                            <- Both sourced externally and generated from code
+                           
 ```  
 Note: Large or sensitive files are listed in .gitignore and not pushed to GitHub.
