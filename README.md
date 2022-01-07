@@ -27,7 +27,7 @@ Because collaborative filtering has a cold start problem, for the case of new us
 
 
 
-For model creation and evaluation, please read our jupyter notebook. (For [content-based recommendation model] and for [collaborative filterling model](https://github.com/Deja2304/phase-4-project/blob/main/2_Collaborative_Filtering_Recommendation.ipynb).)
+For model creation and evaluation, please read our jupyter notebook. (For [content-based recommendation model](https://github.com/Deja2304/phase-4-project/blob/main/content%20based.ipynb) and for [collaborative filterling model](https://github.com/Deja2304/phase-4-project/blob/main/2_Collaborative_Filtering_Recommendation.ipynb).)
 
 
 ## Model Evaluation
