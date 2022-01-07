@@ -61,7 +61,8 @@ Next Step
 - Conduct A/B testing to assess whether a person really watches a recommended movie. 
 - Filter for movies with same title
 
-
+## Presentation
+[Slides](https://docs.google.com/presentation/d/1z4rxVRh36-wQyU29BXLJlbMGWTLXG1JhqfJG_8BNK5g/edit#slide=id.ge00b8f2070_0_385)
 ## For More Information 
 Please review our full analysis in our Jupyter Notebook or our presentation.
 For any additional questions, please contact: [Deja Prade](https://www.linkedin.com/in/deja-prade/), [Emiko Naomasa](https://www.linkedin.com/in/emiko-n-58782158/) 
