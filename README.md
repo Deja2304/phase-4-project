@@ -27,7 +27,7 @@ Because collaborative filtering has a cold start problem, for the case of new us
 
 
 
-For model creation and evaluation, please read our jupyter notebook. (For [content-based recommendation model] and for [collaborative filterling model](https://github.com/Deja2304/phase-4-project/blob/main/2_Collaborative_Filtering_Recommendation.ipynb).)
+For model creation and evaluation, please read our jupyter notebook. (For [content-based recommendation model](https://github.com/Deja2304/phase-4-project/blob/main/content%20based.ipynb) and for [collaborative filterling model](https://github.com/Deja2304/phase-4-project/blob/main/2_Collaborative_Filtering_Recommendation.ipynb).)
 
 
 ## Model Evaluation
@@ -61,7 +61,8 @@ Next Step
 - Conduct A/B testing to assess whether a person really watches a recommended movie. 
 - Filter for movies with same title
 
-
+## Presentation
+[Slides](https://docs.google.com/presentation/d/1z4rxVRh36-wQyU29BXLJlbMGWTLXG1JhqfJG_8BNK5g/edit#slide=id.ge00b8f2070_0_385)
 ## For More Information 
 Please review our full analysis in our Jupyter Notebook or our presentation.
 For any additional questions, please contact: [Deja Prade](https://www.linkedin.com/in/deja-prade/), [Emiko Naomasa](https://www.linkedin.com/in/emiko-n-58782158/) 
